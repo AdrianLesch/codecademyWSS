@@ -1,0 +1,190 @@
+/* General styling */
+
+body {
+  margin: 0px;
+  background: #4040a1;
+  font-family: 'Zilla Slab', serif;
+}
+
+header {
+  background-color: #36486b;
+  position: relative;
+  width: 500px;
+  top: 22px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: 1px solid #36486b;
+  border-radius: 60px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+#title {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px white;
+}
+/* Nav-Bar */
+
+nav {
+  position: static;
+  text-align: center;
+  background-color: #fefbd8;
+  margin-bottom: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: white; 
+  cursor: pointer;
+}
+
+a:active {
+  color: #4040a1;
+}
+
+.navBar li{
+  margin: 5px 15px;
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+  border: 1px solid #618685;
+  background-color: #618685;
+  border-radius: 50px;
+  display: inline-block;
+  transition: background-color 0.8s;  
+}
+
+.navBar li:hover {
+  background-color: #7d9550;
+}
+
+.navBar li:active {
+  transition: background-color 0.05s; 
+  background-color: white;
+}
+
+
+/* Content-Section */
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin: 15px 15px;
+  text-align: center;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.container div {
+  font-family: 'Playfair Display', serif;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+#firstColor {
+  background-color: #fefbd8;
+  text-align: center;
+  width: 160px;
+  border-radius: 15px;
+  border: 0.5px solid black;
+}
+
+#secondColor {
+  background-color: #618685;
+  text-align: center;
+  width: 160px;
+  border-radius: 15px;
+  border: 0.5px solid black;
+  color: white;
+}
+
+#thirdColor {
+  background-color: #36486b;
+  text-align: center;
+  width: 160px;
+  border-radius: 15px;
+  border: 0.5px solid black;
+  color: white;
+}
+
+#fourthColor {
+  background-color: #4040a1;
+  text-align: center;
+  width: 160px;
+  border-radius: 15px;
+  border: 0.5px solid black;
+  color: white;
+}
+
+#ZillaSlab {
+  font-family: 'Zilla Slab', serif;
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  font-size: 18px;
+  width: 400px;
+  height: 180px;  
+}
+
+#Roboto {
+  font-family: 'Roboto', serif;
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  font-size: 18px;
+  width: 400px;
+  height: 180px;  
+}
+
+#PlayfairDisplay {
+  font-family: 'Playfair Display', serif;
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  width: 400px;
+  height: 180px;
+  font-size: 17.1px;
+}
+
+#H1 {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  font-size: 26px;
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  text-align: left;
+}
+
+#H2 {
+  font-weight: 500;
+  font-size: 18px;
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  text-align: left;
+  font-family: 'Roboto', serif;
+}
+
+#P {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  text-align: left;
+}
+
+/* Footer-Section */
+
+footer {
+  color: white;
+  background-color: #36486b;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
